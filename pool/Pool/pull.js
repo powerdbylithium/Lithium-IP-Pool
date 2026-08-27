@@ -8,7 +8,7 @@ export default {
 
     const target = url.searchParams.get("url");
     if (!target) {
-      return new Response("missing url parameter", { status: 400 });
+      return new Response("missing params of url", { status: 400 });
     }
 
     let parsed;
