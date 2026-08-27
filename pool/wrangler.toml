@@ -1,0 +1,13 @@
+name = "Pool"
+main = "Pool/pull.js"
+compatibility_date = "2028-1-1"
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "Pool"
+id = "kv_id"
+
+[vars]
+MAX_RETRIES = "5"
